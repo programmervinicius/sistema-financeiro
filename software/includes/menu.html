@@ -1,0 +1,53 @@
+<figure>
+	<img src="../lib/img/logo2.png" height="157" width="433" alt="logo" class="img-responsive logo">
+</figure>
+<div class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle='collapse' data-target="#navbar">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.php"><span class="fa fa-home fa-lg"></span></a></li>
+				<!--primary dropdown-->
+				<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bem-Vindo <?php echo $soft_name; ?> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><span class="fa fa-pencil"></span> Editar Perfil</a></li>
+            <li><a href="../control/off_controller.php"><span class="fa fa-power-off"></span> Sair</a></li>
+          </ul>
+        </li>
+        <!--second dropdown-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastro <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="cliente.php">Cliente</a></li>
+            <li><a href="fornecedor.php">Fornecedor</a></li>
+            <li><a href="tipo_documento.php">Tipo Documento</a></li>
+          </ul>
+        </li>
+        <!--other dropdown-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lançamento<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Conta Pagar</a></li>
+            <li><a href="#">Conta Receber</a></li>
+          </ul>
+        </li>
+         <!--finnaly dropdown-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Utilidades<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Retorno Bancário</a></li>
+            <li><a href="#">Alterar Senha</a></li>
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+</div>

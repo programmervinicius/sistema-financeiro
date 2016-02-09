@@ -1,0 +1,30 @@
+@re:relative;
+@ab:absolute;
+@ri:right;
+@le:left;
+
+
+@cor:#fff;
+@back:#66ccff;
+@hover:#1AA8BD;
+
+@max:100%;
+@nd:none;
+@i:!important;
+
+.font(){
+	font-family:arial;
+	font-weight:700;
+}
+
+.radius(@b){
+	border-radius: @b;
+}
+
+.trans(@t){
+	-o-transition: all @t linear;
+	-ms-transition: all @t linear;
+	-webkit-transition: all @t linear;
+	-moz-transition: all @t linear;
+	transition: all @t linear;
+}

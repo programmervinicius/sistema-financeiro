@@ -1,0 +1,52 @@
+@import 'var.less';
+
+*{
+	padding: 0;
+	margin:0;
+	outline: @nd @i;
+}
+
+.form-signin{
+	width: 300px;
+	height:300px;
+	margin:0 auto;
+	margin-top:9em;
+	.form-control , .input-group{
+		height: 40px @i;
+	}
+	.input-group , .btn-info{
+		margin-top: 15px;
+	}
+	.input-group-addon{
+		background: @cor @i;
+	}
+	.btn-info{
+		height: 40px;
+	}
+}
+
+.logo{
+	width:250px;
+	height: 100px;
+	margin:0 auto;
+}
+footer{
+	.navbar-default{
+		background: @back;
+		h5{
+			color: @cor;
+			position: @re;
+			top:0.6em;
+			.font();
+		}
+	}
+}
+
+@media(max-width:360px){
+	.form-signin{
+		width: 250px;
+		margin-top: 0;
+		position: @re;
+		top: 2*2em;
+	}
+}

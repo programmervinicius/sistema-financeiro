@@ -1,0 +1,61 @@
+@import 'var.less';
+*{
+	padding: 0;
+	margin:0;
+	outline: @nd @i;
+}
+
+/*menu*/
+.logo{
+	width: 300px;
+	padding: 25px;
+}
+.navbar-default{
+	background: @back;
+	.navbar-toggle{
+		.radius(0);
+		.icon-bar{
+			background: @cor;
+		}
+		&:hover{
+			background: @hover @i;
+			.trans(1s);
+		}
+	}
+	.navbar-nav .active a{
+		background: @hover;
+		color: @cor;
+		&:hover{
+			background:@back;
+			color: @cor;
+			.trans(1s);
+		}
+	}
+	.navbar-nav a {
+		color: @cor @i;
+		.font();
+	}
+	.dropdown-toggle{
+		background: transparent @i;
+		&:hover{
+			background:@hover @i;
+			.trans(1s);
+		}
+	}
+	 .open{
+		 background: transparent @i;
+	 }
+	 .open a:hover{
+		background: transparent @i;
+	}
+	.dropdown-menu{
+		background: @back @i;
+		a{
+			&:hover{
+				background:@hover @i;
+			}
+		}
+	}
+}
+
+/*rodapé*/
