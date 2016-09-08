@@ -18,9 +18,7 @@
 
 		* control => "a pasta CONTROL	 contém todas parte de controle do sistema como alerta de erro e outros";
 
-# OBJETIVO 
 
-		*criar um sistema poderoso com a linguagem php que possar fornecer muita instabilidade de controle de uma determinada empresa
 
 # ferramentas usadas no momento para fazer nosso sistema 
 
